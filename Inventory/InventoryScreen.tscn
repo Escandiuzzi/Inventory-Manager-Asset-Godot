@@ -1,0 +1,297 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Inventory/InventoryScreen.gd" type="Script" id=1]
+[ext_resource path="res://Inventory/Inventory.gd" type="Script" id=2]
+[ext_resource path="res://Inventory/UIInputHandler.gd" type="Script" id=3]
+
+[node name="InventoryScreen" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Inventory" type="Node" parent="."]
+script = ExtResource( 2 )
+
+[node name="UIInputHandler" type="Node" parent="."]
+script = ExtResource( 3 )
+
+[node name="BackgroundContainer" type="Control" parent="."]
+editor/display_folded = true
+
+[node name="Panel" type="Panel" parent="BackgroundContainer"]
+margin_right = 1440.0
+margin_bottom = 900.0
+
+[node name="Title" type="RichTextLabel" parent="BackgroundContainer"]
+margin_left = 627.387
+margin_top = 17.3544
+margin_right = 744.387
+margin_bottom = 47.3544
+rect_scale = Vector2( 2, 2 )
+text = "Inventory"
+
+[node name="ItemStats" type="RichTextLabel" parent="BackgroundContainer"]
+margin_left = 560.0
+margin_top = 670.0
+margin_right = 720.0
+margin_bottom = 770.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="SlotsContainer" type="Control" parent="."]
+editor/display_folded = true
+
+[node name="Slot1Button" type="Button" parent="SlotsContainer"]
+margin_left = 220.0
+margin_top = 200.0
+margin_right = 299.0
+margin_bottom = 220.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot2Button" type="Button" parent="SlotsContainer"]
+margin_left = 423.0
+margin_top = 200.0
+margin_right = 502.0
+margin_bottom = 220.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot3Button" type="Button" parent="SlotsContainer"]
+margin_left = 633.0
+margin_top = 200.0
+margin_right = 712.0
+margin_bottom = 220.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot4Button" type="Button" parent="SlotsContainer"]
+margin_left = 843.0
+margin_top = 200.0
+margin_right = 922.0
+margin_bottom = 220.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot5Button" type="Button" parent="SlotsContainer"]
+margin_left = 1043.0
+margin_top = 200.0
+margin_right = 1122.0
+margin_bottom = 220.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot6Button" type="Button" parent="SlotsContainer"]
+margin_left = 220.0
+margin_top = 305.0
+margin_right = 299.0
+margin_bottom = 325.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot7Button" type="Button" parent="SlotsContainer"]
+margin_left = 423.0
+margin_top = 305.0
+margin_right = 502.0
+margin_bottom = 325.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot8Button" type="Button" parent="SlotsContainer"]
+margin_left = 633.0
+margin_top = 311.0
+margin_right = 712.0
+margin_bottom = 331.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot9Button" type="Button" parent="SlotsContainer"]
+margin_left = 843.0
+margin_top = 305.0
+margin_right = 922.0
+margin_bottom = 325.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot10Button" type="Button" parent="SlotsContainer"]
+margin_left = 1043.0
+margin_top = 305.0
+margin_right = 1122.0
+margin_bottom = 325.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot11Button" type="Button" parent="SlotsContainer"]
+margin_left = 220.0
+margin_top = 402.0
+margin_right = 299.0
+margin_bottom = 422.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot12Button" type="Button" parent="SlotsContainer"]
+margin_left = 423.0
+margin_top = 402.0
+margin_right = 502.0
+margin_bottom = 422.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot13Button" type="Button" parent="SlotsContainer"]
+margin_left = 633.0
+margin_top = 406.0
+margin_right = 712.0
+margin_bottom = 426.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot14Button" type="Button" parent="SlotsContainer"]
+margin_left = 843.0
+margin_top = 402.0
+margin_right = 922.0
+margin_bottom = 422.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot15Button" type="Button" parent="SlotsContainer"]
+margin_left = 1043.0
+margin_top = 402.0
+margin_right = 1122.0
+margin_bottom = 422.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot16Button" type="Button" parent="SlotsContainer"]
+margin_left = 220.0
+margin_top = 499.0
+margin_right = 299.0
+margin_bottom = 519.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot17Button" type="Button" parent="SlotsContainer"]
+margin_left = 423.0
+margin_top = 499.0
+margin_right = 502.0
+margin_bottom = 519.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot18Button" type="Button" parent="SlotsContainer"]
+margin_left = 633.0
+margin_top = 499.0
+margin_right = 712.0
+margin_bottom = 519.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot19Button" type="Button" parent="SlotsContainer"]
+margin_left = 843.0
+margin_top = 499.0
+margin_right = 922.0
+margin_bottom = 519.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot20Button" type="Button" parent="SlotsContainer"]
+margin_left = 1043.0
+margin_top = 499.0
+margin_right = 1122.0
+margin_bottom = 519.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot21Button" type="Button" parent="SlotsContainer"]
+margin_left = 220.0
+margin_top = 595.0
+margin_right = 299.0
+margin_bottom = 615.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot22Button" type="Button" parent="SlotsContainer"]
+margin_left = 423.0
+margin_top = 595.0
+margin_right = 502.0
+margin_bottom = 615.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot23Button" type="Button" parent="SlotsContainer"]
+margin_left = 633.0
+margin_top = 595.0
+margin_right = 712.0
+margin_bottom = 615.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot24Button" type="Button" parent="SlotsContainer"]
+margin_left = 843.0
+margin_top = 595.0
+margin_right = 922.0
+margin_bottom = 615.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="Slot25Button" type="Button" parent="SlotsContainer"]
+margin_left = 1043.0
+margin_top = 595.0
+margin_right = 1122.0
+margin_bottom = 615.0
+rect_scale = Vector2( 2, 2 )
+
+[node name="CloseButton" type="Button" parent="."]
+margin_left = 1252.0
+margin_top = 840.0
+margin_right = 1333.0
+margin_bottom = 860.0
+rect_scale = Vector2( 2, 2 )
+text = "Close"
+[connection signal="mouse_entered" from="SlotsContainer/Slot1Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 0 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot1Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot1Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 0 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot2Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 1 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot2Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot2Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 1 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot3Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 2 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot3Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot3Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 2 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot4Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 3 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot4Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot4Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 3 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot5Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 4 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot5Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot5Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 4 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot6Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 5 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot6Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot6Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 5 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot7Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 6 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot7Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot7Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 6 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot8Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 7 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot8Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot8Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 7 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot9Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 8 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot9Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot9Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 8 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot10Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 9 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot10Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot10Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 9 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot11Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 10 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot11Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot11Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 10 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot12Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 11 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot12Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot12Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 11 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot13Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 12 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot13Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot13Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 12 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot14Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 13 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot14Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot14Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 13 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot15Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 14 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot15Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot15Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 14 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot16Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 15 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot16Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot16Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 15 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot17Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 16 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot17Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot17Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 16 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot18Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 17 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot18Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot18Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 17 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot19Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 18 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot19Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot19Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 18 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot20Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 19 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot20Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot20Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 19 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot21Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 20 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot21Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot21Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 20 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot22Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 21 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot22Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot22Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 21 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot23Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 22 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot23Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot23Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 22 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot24Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 23 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot24Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot24Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 23 ]]
+[connection signal="mouse_entered" from="SlotsContainer/Slot25Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 24 ]]
+[connection signal="mouse_exited" from="SlotsContainer/Slot25Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
+[connection signal="pressed" from="SlotsContainer/Slot25Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 24 ]]
