@@ -33,10 +33,10 @@ func _process(delta):
 	_get_inventory_items();
 	pass;
 
-func _get_inventory_items(): #Get all inventory keys and check if the slot should have the text of the item
+func _get_inventory_items(): #Used to get all inventory keys and check if the button will be related to an item
 	var keys = inventory._get_keys();
 	
-	for i in range(slot_buttons.size()): #For all slot button(you can add more if you)
+	for i in range(slot_buttons.size()): #Checking all slot buttons(you can add more if you want)
 		if  i < keys.size(): 
 			slot_buttons[i].text = keys[i];
 		else: 

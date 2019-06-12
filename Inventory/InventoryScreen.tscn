@@ -22,9 +22,9 @@ margin_bottom = 900.0
 
 [node name="Title" type="RichTextLabel" parent="BackgroundContainer"]
 margin_left = 627.387
-margin_top = 17.3544
+margin_top = 75.3544
 margin_right = 744.387
-margin_bottom = 47.3544
+margin_bottom = 105.354
 rect_scale = Vector2( 2, 2 )
 text = "Inventory"
 
@@ -220,6 +220,7 @@ margin_right = 1333.0
 margin_bottom = 860.0
 rect_scale = Vector2( 2, 2 )
 text = "Close"
+
 [connection signal="mouse_entered" from="SlotsContainer/Slot1Button" to="UIInputHandler" method="_on_SlotButton_mouse_entered" binds= [ 0 ]]
 [connection signal="mouse_exited" from="SlotsContainer/Slot1Button" to="UIInputHandler" method="_on_SlotButton_mouse_exited"]
 [connection signal="pressed" from="SlotsContainer/Slot1Button" to="UIInputHandler" method="_on_SlotButton_pressed" binds= [ 0 ]]
