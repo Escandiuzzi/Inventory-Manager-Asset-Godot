@@ -27,7 +27,7 @@ onready var slot_buttons = [
 	get_node("SlotsContainer/Slot23Button"),
 	get_node("SlotsContainer/Slot24Button"),
 	get_node("SlotsContainer/Slot25Button")
-] #Slots buttons
+] #Slot buttons
 
 func _process(delta):
 	_get_inventory_items();
